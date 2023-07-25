@@ -20,7 +20,7 @@ public class exercicios01 {
         for (int i = 0; i < 50; i++) {
             for (int j = 0; j < 2; j++) {
                 media[i] = notas[i][j] + media[i];
-                if (j == 2) {
+                if (j == 1) {
                     media[i] = media[i]/2;
                 }
             }
